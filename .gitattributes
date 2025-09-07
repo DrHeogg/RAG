@@ -1,0 +1,12 @@
+﻿* text=auto
+
+# Бинарники/большие файлы — без преобразования переводов строк
+*.pdf  -text
+*.docx -text
+*.pptx -text
+*.png  -text
+*.jpg  -text
+*.jpeg -text
+*.bin  -text
+*.pt   -text
+*.gguf -text

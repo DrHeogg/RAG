@@ -1,0 +1,36 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.env
+.env.*
+*.env
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Caches
+.cache/
+.huggingface/
+**/__pycache__/
+
+# Build
+dist/
+build/
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Project data (не храним сырьё в репозитории)
+data/
+!data/.gitkeep
+
+# Локальные данные Qdrant (если есть)
+qdrant_data/
